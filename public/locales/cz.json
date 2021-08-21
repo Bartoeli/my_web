@@ -1,0 +1,12 @@
+{
+  "name": "Ahoj, já jsem Eliška",
+  "position": "Frontend vývojář",
+  "menu": {
+    "about": "O mně",
+    "education": "vzdělání",
+    "projects": "projekty",
+    "career": "pracovní zkušenosti",
+    "skills": "co umím",
+    "contact": "kontakt"
+  }
+}
