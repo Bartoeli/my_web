@@ -1,7 +1,35 @@
 .bannerImage {
-  z-index: 0;
+  z-index: -1;
 }
 
 .bannerMenu {
   z-index: 1;
+}
+
+.meImageContainer {
+  width: 250px;
+  height: 250px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.meRightContainer {
+  z-index: 2;
+}
+
+.divider {
+  width: 80%;
+  height: 2px;
+  background-color: #52edc7;
+  margin: 10px auto;
+}
+
+.meButtonContainer {
+  width: 80%;
+  margin: 0 auto;
 }

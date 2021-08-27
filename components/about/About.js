@@ -1,16 +1,20 @@
 import React from 'react'
+import Image from 'next/image'
 import { useTranslation } from 'react-i18next';
 
 import '../../pages/i18n.js';
+import { AboutContainer } from './About-styled.js';
+import styles from './About.module.css'
+import { PartHeader } from '../partHeader/PartHeader.js';
 
 
 
 export const About = () => {
-  const { t, i18n } = useTranslation();
+  
 
   return (
-    <div>
-      <h3>{t('menu.about')}</h3>
-    </div>
+    <AboutContainer>
+      <PartHeader headerText="about me" imageAlt="about icon" imageSrc="/../public/images/about.png" headerImageFill="#000"/>
+    </AboutContainer>
   )
 }

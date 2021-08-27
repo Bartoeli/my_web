@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import banner from "../../public/images/banner.jpg"
 
 export const BannerContainer = styled.div`
 width: 100%;
@@ -9,6 +8,4 @@ overflow: hidden;
 position: relative;
 top: 0;
 left: 0;
-bottom: 0;
-right: 0;
 `
