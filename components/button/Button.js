@@ -1,8 +1,17 @@
-import React from 'react'
-import { StyledButton } from './Button-styled'
+import React from "react";
+import { StyledButton } from "./Button-styled";
 
-
-export const Button = ({buttonText, buttonVerticalPadding, buttonHorizontalPadding, buttonBorder, buttonTextColor, buttonRadius, buttonTextSize, buttonBackgroundColor, onClick}) => {
+export const Button = ({
+  buttonText,
+  buttonVerticalPadding,
+  buttonHorizontalPadding,
+  buttonBorder,
+  buttonTextColor,
+  buttonRadius,
+  buttonTextSize,
+  buttonBackgroundColor,
+  onClick,
+}) => {
   return (
     <StyledButton
       onClick={() => onClick()}
@@ -12,6 +21,9 @@ export const Button = ({buttonText, buttonVerticalPadding, buttonHorizontalPaddi
       buttonTextColor={buttonTextColor}
       buttonRadius={buttonRadius}
       buttonTextSize={buttonTextSize}
-      buttonBackgroundColor={buttonBackgroundColor}>{buttonText}</StyledButton>
-  )
-}
+      buttonBackgroundColor={buttonBackgroundColor}
+    >
+      {buttonText}
+    </StyledButton>
+  );
+};

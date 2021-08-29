@@ -1,0 +1,48 @@
+.navMobile {
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 16px;
+}
+
+.logoContainer {
+  position: relative;
+  height: 25px;
+}
+
+.logoImage {
+}
+
+.hamburgerContainer {
+  position: relative;
+  width: 37px;
+  height: 25px;
+  background-color: transparent;
+}
+
+.hamburger {
+  width: 38px;
+  height: 26px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+.closeMenuContainer {
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+.navMobileOpen {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.44);
+  z-index: 2;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
