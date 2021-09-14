@@ -33,11 +33,17 @@ export const Banner = () => {
           </div>
         </div>
         <div className={styles.meRightContainer}>
-          <h1>I am Eliška Bartošová</h1>
+          <h1>
+            Hi! I am <br /> Eliška Bartošová
+          </h1>
           <div className={styles.divider}></div>
           <h2>frontend developer</h2>
           <div className={styles.meButtonContainer}>
-            <Button buttonText="download my resume" onClick={() => {}} />
+            <Button
+              buttonText="download my resume"
+              onClick={() => {}}
+              buttonHorizontalPadding="16px"
+            />
           </div>
         </div>
       </BannerContainer>

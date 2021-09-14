@@ -16,20 +16,23 @@
   left: 0;
   border-radius: 50%;
   margin: 0 auto;
+  margin-bottom: 32px;
 }
 
 .meRightContainer {
+  max-width: 400px;
   z-index: 2;
+  margin: 0 32px;
 }
 
 .divider {
-  width: 80%;
+  width: 100%;
   height: 2px;
-  background-color: #52edc7;
-  margin: 10px auto;
+  background-color: #907893;
+  margin-bottom: 16px;
 }
 
 .meButtonContainer {
-  width: 80%;
-  margin: 0 auto;
+  height: 40px;
+  margin-top: 40px;
 }
